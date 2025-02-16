@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Market</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 200px;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fresh Market</h1>
+        <p>Your Local Grocery Store</p>
+    </header>
+
+    <main>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Fresh Fruits">
+                <h3>Fresh Fruits</h3>
+                <p>$2.99/lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Vegetables">
+                <h3>Fresh Vegetables</h3>
+                <p>$1.99/lb</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Dairy">
+                <h3>Dairy Products</h3>
+                <p>$3.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/200" alt="Bread">
+                <h3>Fresh Bread</h3>
+                <p>$2.49</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 Fresh Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
